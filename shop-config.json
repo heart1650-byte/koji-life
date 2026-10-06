@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "externalStoreUrl": "",
+  "orderEmail": "",
+  "shippingFee": null,
+  "bankEnabled": false,
+  "bankInstructions": "",
+  "paypayOnlineReady": false,
+  "legalUrl": "",
+  "products": [
+    {
+      "id": "1",
+      "name": "納豆糀",
+      "price": null,
+      "stock": null,
+      "state": "準備中",
+      "visible": true,
+      "externalUrl": ""
+    },
+    {
+      "id": "2",
+      "name": "ひしお糀",
+      "price": null,
+      "stock": null,
+      "state": "準備中",
+      "visible": true,
+      "externalUrl": ""
+    },
+    {
+      "id": "3",
+      "name": "ゆず糀",
+      "price": null,
+      "stock": null,
+      "state": "準備中",
+      "visible": true,
+      "externalUrl": ""
+    },
+    {
+      "id": "4",
+      "name": "レモン糀",
+      "price": null,
+      "stock": null,
+      "state": "準備中",
+      "visible": true,
+      "externalUrl": ""
+    },
+    {
+      "id": "5",
+      "name": "カレー糀",
+      "price": null,
+      "stock": null,
+      "state": "準備中",
+      "visible": true,
+      "externalUrl": ""
+    },
+    {
+      "id": "6",
+      "name": "コンソメ糀",
+      "price": null,
+      "stock": null,
+      "state": "準備中",
+      "visible": true,
+      "externalUrl": ""
+    },
+    {
+      "id": "7",
+      "name": "中華麹",
+      "price": null,
+      "stock": null,
+      "state": "準備中",
+      "visible": true,
+      "externalUrl": ""
+    },
+    {
+      "id": "8",
+      "name": "くるみ味噌",
+      "price": null,
+      "stock": null,
+      "state": "準備中",
+      "visible": true,
+      "externalUrl": ""
+    },
+    {
+      "id": "9",
+      "name": "おまかせ発酵調味料3点セット",
+      "price": null,
+      "stock": null,
+      "state": "準備中",
+      "visible": true,
+      "externalUrl": ""
+    }
+  ]
+}
