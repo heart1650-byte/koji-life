@@ -1,3 +1,25 @@
 {
-"name":"糀Life","short_name":"糀Life","start_url":"./","display":"standalone","background_color":"#fffaf4","theme_color":"#ee6e7c","description":"発酵でつくる、やさしい毎日。糀Lifeのレシピ集"
+  "name": "糀Life",
+  "short_name": "糀Life",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fffaf4",
+  "theme_color": "#ee6e7c",
+  "description": "発酵でつくる、やさしい毎日。糀Lifeのレシピ集",
+  "id": "./",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
