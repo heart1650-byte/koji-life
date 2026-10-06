@@ -1,6 +1,6 @@
 (function(root){
   'use strict';
-  const aliases=[[/糀|麹/g,'こうじ'],[/醤こうじ|しょうゆこうじ/g,'醤油こうじ'],[/納豆こうじ/g,'納豆こうじ'],[/しょうが|ショウガ|生姜/g,'しょうが'],[/じゃがいも|ジャガイモ|馬鈴薯/g,'じゃがいも'],[/さつまいも|サツマイモ|サツマイモ|薩摩芋/g,'さつまいも'],[/にんじん|ニンジン|人参/g,'にんじん'],[/かぶ|カブ|蕪/g,'かぶ'],[/くるみ|クルミ|胡桃/g,'くるみ'],[/エビ|海老|えび/g,'えび'],[/鶏肉|とり肉|とりにく|チキン/g,'鶏'],[/ご飯|ごはん/g,'ごはん']];
+  const aliases=[[/柚子|ユズ/g,'ゆず'],[/糀|麹/g,'こうじ'],[/醤こうじ|しょうゆこうじ/g,'醤油こうじ'],[/納豆こうじ/g,'納豆こうじ'],[/しょうが|ショウガ|生姜/g,'しょうが'],[/じゃがいも|ジャガイモ|馬鈴薯/g,'じゃがいも'],[/さつまいも|サツマイモ|サツマイモ|薩摩芋/g,'さつまいも'],[/にんじん|ニンジン|人参/g,'にんじん'],[/かぶ|カブ|蕪/g,'かぶ'],[/くるみ|クルミ|胡桃/g,'くるみ'],[/エビ|海老|えび/g,'えび'],[/鶏肉|とり肉|とりにく|チキン/g,'鶏'],[/ご飯|ごはん/g,'ごはん']];
   function normalize(text){let value=String(text||'').normalize('NFKC').toLowerCase();for(const [pattern,replacement] of aliases)value=value.replace(pattern,replacement);return value.replace(/\s+/g,' ').trim();}
   function matches(recipe,query){const haystack=normalize([recipe.title,recipe.desc,recipe.koji,...recipe.ing].join(' '));return normalize(query).split(/[\s　]+/).filter(Boolean).every(term=>haystack.includes(term));}
   function escapeHtml(text){return String(text??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
