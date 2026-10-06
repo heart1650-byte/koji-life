@@ -11,7 +11,7 @@
     {
       "id": "1",
       "name": "納豆糀",
-      "price": null,
+      "price": 1200,
       "stock": null,
       "state": "準備中",
       "visible": true,
@@ -20,7 +20,7 @@
     {
       "id": "2",
       "name": "ひしお糀",
-      "price": null,
+      "price": 1200,
       "stock": null,
       "state": "準備中",
       "visible": true,
@@ -29,7 +29,7 @@
     {
       "id": "3",
       "name": "ゆず糀",
-      "price": null,
+      "price": 1200,
       "stock": null,
       "state": "準備中",
       "visible": true,
@@ -38,7 +38,7 @@
     {
       "id": "4",
       "name": "レモン糀",
-      "price": null,
+      "price": 1200,
       "stock": null,
       "state": "準備中",
       "visible": true,
@@ -47,7 +47,7 @@
     {
       "id": "5",
       "name": "カレー糀",
-      "price": null,
+      "price": 1200,
       "stock": null,
       "state": "準備中",
       "visible": true,
@@ -56,7 +56,7 @@
     {
       "id": "6",
       "name": "コンソメ糀",
-      "price": null,
+      "price": 1200,
       "stock": null,
       "state": "準備中",
       "visible": true,
@@ -65,7 +65,7 @@
     {
       "id": "7",
       "name": "中華麹",
-      "price": null,
+      "price": 1200,
       "stock": null,
       "state": "準備中",
       "visible": true,
@@ -74,7 +74,7 @@
     {
       "id": "8",
       "name": "くるみ味噌",
-      "price": null,
+      "price": 1200,
       "stock": null,
       "state": "準備中",
       "visible": true,
@@ -83,11 +83,11 @@
     {
       "id": "9",
       "name": "おまかせ発酵調味料3点セット",
-      "price": null,
+      "price": 4000,
       "stock": null,
       "state": "準備中",
       "visible": true,
-      "externalUrl": ""
+      "externalUrl": "https://u-word.com/teppan/store/storeDetail/131067"
     }
   ]
 }
