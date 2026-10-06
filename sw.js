@@ -1,4 +1,4 @@
-const CACHE="koji-life-cookpad-v5";
+const CACHE="koji-life-cookpad-v6";
 const SHELL=["./","./index.html","./recipes-data.js","./recipe-core.js","./app.js","./post.html","./post.js","./community-recipes.json","./manifest.webmanifest"];
 self.addEventListener("install",event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener("activate",event=>event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith("koji-life-")&&key!==CACHE)await caches.delete(key);await self.clients.claim();for(const client of await self.clients.matchAll({type:"window"}))if(client.url.startsWith(self.registration.scope))await client.navigate(client.url);})()));

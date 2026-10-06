@@ -1,5 +1,12 @@
 # 小春日和レシピの専用画像
 
+## recipe-160.webp — 生姜を楽しむひしお糀の佃煮
+
+保存先: /workspace/scratch/7fde29c01192/koji-life/assets/recipes/recipe-160.webp
+
+undefined
+
+
 組み込み image_gen で生成。掲載画像はAI生成イメージです。
 
 ## recipe-154.webp
@@ -37,5 +44,4 @@ Use case: photorealistic-natural. Asset type: dedicated recipe photo for 糀Life
 保存先: /workspace/scratch/7fde29c01192/koji-life/assets/recipes/recipe-159.webp
 
 Use case: photorealistic-natural. Asset type: dedicated recipe photo for 糀Life. Dish: ビシソワーズラーメン. A bowl of Japanese ramen in a creamy pale potato and soy milk broth with a few crisp root vegetable tempura pieces on top, pea shoots and a subtle sprinkling of parsley. Visible noodles beneath topping, no pork, no egg, no curry. Homemade vichyssoise-style ramen with toasted flying fish stock. Composition: one dish centered in landscape framing, pale wood tabletop, cream ceramics except where glass specified, soft natural window light, warm realistic food photography, texture and ingredients clearly recognizable, inviting Japanese home cafe. No words, logos, watermarks, collage, people or extra food. Illustrative AI food photo, not an actual documented cooked result.
-
 
