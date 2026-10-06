@@ -9,6 +9,15 @@
   "legalUrl": "https://heart1650-byte.github.io/koji-life/legal.html",
   "products": [
     {
+      "id": "9",
+      "name": "おまかせ発酵調味料3点セット",
+      "price": 4000,
+      "stock": null,
+      "state": "準備中",
+      "visible": true,
+      "externalUrl": "https://u-word.com/teppan/store/storeDetail/131067"
+    },
+    {
       "id": "1",
       "name": "納豆糀",
       "price": 1200,
@@ -79,15 +88,6 @@
       "state": "準備中",
       "visible": true,
       "externalUrl": ""
-    },
-    {
-      "id": "9",
-      "name": "おまかせ発酵調味料3点セット",
-      "price": 4000,
-      "stock": null,
-      "state": "準備中",
-      "visible": true,
-      "externalUrl": "https://u-word.com/teppan/store/storeDetail/131067"
     },
     {
       "id": "10",
