@@ -1,6 +1,6 @@
 {
   "supabaseUrl": "https://vcebbdojkreoyaoqrgrf.supabase.co",
   "supabasePublishableKey": "sb_publishable_tbD6vnft_zFgcoGlZ69x_Q_b2s4Pfsa",
-  "emailDeliveryReady": false,
+  "emailDeliveryReady": true,
   "ordersReady": false
 }
