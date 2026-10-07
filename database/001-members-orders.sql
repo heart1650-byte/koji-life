@@ -5,7 +5,7 @@ create table public.koji_admins(user_id uuid primary key references auth.users(i
 alter table public.koji_admins enable row level security;
 revoke all on public.koji_admins from anon, authenticated;
 create function public.koji_is_admin() returns boolean language sql stable security definer set search_path='' as $$select exists(select 1 from public.koji_admins where user_id=auth.uid())$$;
-revoke all on function public.koji_is_admin() from public;
+revoke all on function public.koji_is_admin() from public, anon;
 grant execute on function public.koji_is_admin() to authenticated;
 create table public.koji_profiles(
  user_id uuid primary key references auth.users(id) on delete cascade,
